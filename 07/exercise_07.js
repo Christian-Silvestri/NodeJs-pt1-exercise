@@ -7,4 +7,4 @@ figlet('NodeJS', function (error, data) {
         return;
     }
     console.log(data);
-})
+}) 
