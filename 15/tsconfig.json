@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": ["./src/**/*.ts", "src/app.js", "src/server.mjs", "src/server.test.mjs", "src/app.mjs", "src/server.test.js"],
+  "exclude": ["./src/**/*.test.ts"]
+}
